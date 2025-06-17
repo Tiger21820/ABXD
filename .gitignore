@@ -1,3 +1,5 @@
+*~
+.*.swp
 database.php
 settings.php
 salt.php
@@ -10,3 +12,4 @@ img/logos/*.ico
 downloads/
 securimage/
 layoutmaker/
+data/
