@@ -1,4 +1,4 @@
-# AcmlmBoard XD
+# AcmlmBoard XDp
 
 The new and secure AcmlmBoard-like board.
 
