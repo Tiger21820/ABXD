@@ -1,5 +1,5 @@
 # AcmlmBoard XD
-1
+
 The new and secure AcmlmBoard-like board.
 
 ## Warning
