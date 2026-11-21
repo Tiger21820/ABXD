@@ -35,6 +35,7 @@ $crumbs->add(new PipeMenuHtmlEntry(userLink($user)));
 $crumbs->add(new PipeMenuTextEntry(__("Edit profile")));
 makeBreadcrumbs($crumbs);
 
+echo "<script src=\"".resourceLink('js/zxcvbn.js')."\"></script>";
 echo "<script src=\"".resourceLink('js/register.js')."\"></script>";
 
 loadRanksets();
@@ -610,7 +611,7 @@ function HandlePicture($field, $type, $errorname, $allowOversize = false)
 	global $userid, $dataDir;
 	if($type == 0)
 	{
-		$extensions = array(".png",".jpg",".gif");
+		$extensions = array(".png",".jpg",".jpeg",".gif");
 		$maxDim = 100;
 		$maxSize = 300 * 1024;
 	}

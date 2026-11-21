@@ -13,6 +13,7 @@ $knownBrowsers = array
 	"IE" => "Internet Explorer",
 	"rekonq" => "rekonq",
 	"OPR" => "Opera",
+	"Otter" => "Otter",
 	"Opera Tablet" => "Opera Mobile (tablet)",
 	"Opera Mobile" => "Opera Mobile",
 	"Opera Mini" => "Opera Mini", //Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.18887/764; U; nl) Presto/2.4.15
@@ -44,6 +45,7 @@ $knownOSes = array
 	'iPhone' => 'iPhone',
 	"HTC_" => "HTC mobile",
 	"Series 60" => "S60",
+	"Nexus" => "Android (Nexus %)",
 	"Android" => "Android",
 	"Windows 4.0" => "Windows 95",
 	"Windows 4.1" => "Windows 98",
@@ -62,9 +64,10 @@ $knownOSes = array
 	"BlackBerry" => "BlackBerry",
 	"Nintendo Wii" => "Nintendo Wii",
 	"Nitro" => "Nintendo DS",
+	"Firefox" => "Firefox OS",
 );
 
-$mobileBrowsers = array('Opera Tablet', 'Opera Mobile', 'Opera Mini', 'Nintendo DSi', 'Nitro', 'Nintendo 3DS', 'Android', 'Nokia', 'iPod', 'iPad', 'iPhone');
+$mobileBrowsers = array('Opera Tablet', 'Opera Mobile', 'Opera Mini', 'Nintendo DSi', 'Nitro', 'Nintendo 3DS', 'Android', 'Nokia', 'iPod', 'iPad', 'iPhone', 'Firefox OS');
 $mobileLayout = false;
 
 $ua = $_SERVER['HTTP_USER_AGENT'];

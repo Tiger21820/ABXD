@@ -134,6 +134,7 @@ $tables = array
 			"ip" => "varchar(45)".$notNull,
 			"reason" => "varchar(100)".$notNull,			
 			"date" => $genericInt,			
+			"whitelisted" => $bool,
 		),
 		"special" => "unique key `ip` (`ip`), key `date` (`date`)"
 	),
@@ -408,7 +409,7 @@ $tables = array
 			"dateformat" => "varchar(20) NOT NULL DEFAULT 'm-d-y'",
 			"timeformat" => "varchar(20) NOT NULL DEFAULT 'h:i a'",
 			"fontsize" => "int(8) NOT NULL DEFAULT '80'",
-			"karma" => "int(11) NOT NULL DEFAULT '100'",
+			"karma" => $genericInt,
 			"blocklayouts" => $bool,
 			"globalblock" => $bool,
 			"usebanners" => "tinyint(1) NOT NULL DEFAULT '1'",
